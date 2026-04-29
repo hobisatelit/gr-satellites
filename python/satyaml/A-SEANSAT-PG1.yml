@@ -1,0 +1,14 @@
+name: A-SEANSAT-PG1
+norad: 57197
+data:
+  &tlm Telemetry:
+    telemetry: ax25
+transmitters:
+  2k4 FSK USP downlink:
+    frequency: 401.523e+6
+    modulation: FSK
+    baudrate: 2400
+    deviation: 600
+    framing: USP
+    data:
+    - *tlm
