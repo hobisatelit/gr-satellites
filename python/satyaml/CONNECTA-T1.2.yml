@@ -1,0 +1,14 @@
+name: Connecta-T1.2 
+norad: 55012
+data:
+  &tlm Telemetry:
+    telemetry: ax25
+transmitters:
+  4k8 GFSK downlink:
+    frequency: 401.525e+6
+    modulation: FSK
+    baudrate: 4800
+    deviation: 2400
+    framing: AX.25 G3RUH
+    data:
+    - *tlm
