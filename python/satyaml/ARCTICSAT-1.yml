@@ -30,3 +30,11 @@ transmitters:
     framing: USP
     data:
     - *tlm
+  19k2 USP FSK downlink:
+    frequency: 435.890e+6
+    modulation: FSK
+    baudrate: 19200
+    deviation: 4800
+    framing: USP
+    data:
+    - *tlm
